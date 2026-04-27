@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body{
+    background-color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+nav{
+    background-color: rgb(95, 90, 90);
+    width: 900px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 900px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.315);
+}
+
+article{
+    width: 900px;
+    background-color: lightgray;
+}
+article > h2:hover{
+    background-color: red;
+    color: white;
+}
+article > h2{
+    background-color: black;
+    color: tomato;
+    text-decoration: underline;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 1px 0px black;
+}
+section > h2 {
+    text-align: center;
+}
+section > article > p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+article > aside{
+    background-color: rgb(160, 160, 160);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+} 
+
+footer > p {
+    margin: 0px;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
