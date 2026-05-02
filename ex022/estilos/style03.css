@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+    height: 100vh;
+    border: 1px dashed black;
+    background-image: url("../imagens/mascote.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100px;
+    padding: 20px;
+}
