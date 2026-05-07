@@ -2,15 +2,21 @@
 
 body{
     height: 100vh;
-    background-color: black;
+   /* background-color: black;
     background-image: url('../imagens/wallpaper002.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
+*/
+    /* background shorthand
+        color -> imagem -> repeat -> position -> / -> {size} -> attachment
+    */
+    background: black url('../imagens/wallpaper002.jpg') no-repeat center center / cover fixed;
 }
 main{
     background-color: white;
-    width: 400px;
+    max-width: 700px;
     margin: auto;
     padding: 15px;
     border: 1px solid blue;
